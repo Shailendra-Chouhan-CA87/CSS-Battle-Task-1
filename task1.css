@@ -20,7 +20,7 @@ h6{
 #card{
     height: 95vh;
     width: 25vw;
-    background-color: #fff;
+    background-color: #f7f3f3db;
     border: 2px solid black;
 }
 #upper{
@@ -34,7 +34,7 @@ h6{
 }
 .ele{
     margin-top: 40px;
-    color: rgb(209, 24, 129);
+    color: white;
 }
 img{
     color: white;
@@ -46,26 +46,50 @@ img{
 }
 #b1{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: white;
     margin: 10px;
     height: 80px;
-    border: 2px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.logo2{
-    height: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin: 20px;
 }
 #b2{
     display: flex;
-    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
     height: 80px;
-    border: 2px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 160px;
+    margin: 20px;
+}
+#b1 > #left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(183, 28, 28);
+    border-radius: 50%;
+}
+#b2 > #left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(183, 28, 28);
+    border-radius: 50%;
+}
+#left>img{
+    position: static;
+    height: 30px;
+}
+#right{
+    color: rgb(183, 28, 28);
 }
