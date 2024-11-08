@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#logo{
+    font-family: 'Courier New', Courier, monospace;
+}
+h6{
+    font-size:12px;
+    font-weight: 400;
+}
+#card{
+    height: 95vh;
+    width: 25vw;
+    background-color: #fff;
+    border: 2px solid black;
+}
+#upper{
+    color: rgb(245, 237, 237);
+    background: linear-gradient(to bottom right, rgb(236, 42, 42), rgb(209, 24, 129));
+    border: 2px solid black;
+    height: 60%;
+    border-bottom-left-radius: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.ele{
+    margin-top: 40px;
+    color: rgb(209, 24, 129);
+}
+img{
+    color: white;
+    height: 35vh;
+    position: absolute;
+    top: 24%;
+    right: 40%;
+    
+}
+#b1{
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+    height: 80px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo2{
+    height: 10px;
+}
+#b2{
+    display: flex;
+    background-color: #fff;
+    height: 80px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
